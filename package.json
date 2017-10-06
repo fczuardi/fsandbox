@@ -1,0 +1,30 @@
+{
+  "name": "fsandbox",
+  "version": "0.1.0",
+  "description": "exploration",
+  "main": "index.js",
+  "scripts": {
+      "commit": "git-cz",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fczuardi/fsandbox.git"
+  },
+  "keywords": [],
+  "author": "Fabricio C Zuardi",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fczuardi/fsandbox/issues"
+  },
+  "homepage": "https://github.com/fczuardi/fsandbox#readme",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
