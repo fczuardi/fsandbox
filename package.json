@@ -1,15 +1,16 @@
 {
   "name": "fsandbox",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "exploration",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fczuardi/fsandbox.git"
+    "url": "https://github.com/fczuardi/fsandbox.git"
   },
   "keywords": [],
   "author": "Fabricio C Zuardi",
@@ -20,7 +21,9 @@
   "homepage": "https://github.com/fczuardi/fsandbox#readme",
   "devDependencies": {
     "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.0.0"
+    "cz-conventional-changelog": "^2.0.0",
+    "semantic-release-cli": "^3.2.0",
+    "semantic-release": "^8.0.3"
   },
   "config": {
     "commitizen": {
