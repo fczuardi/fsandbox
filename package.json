@@ -1,5 +1,8 @@
 {
-  "name": "fsandbox",
+  "name": "@fsandbox/fsandbox",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.0-development",
   "description": "exploration",
   "main": "index.js",
