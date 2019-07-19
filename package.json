@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/fczuardi/fsandbox#readme",
   "devDependencies": {
-    "commitizen": "^2.9.6",
+    "commitizen": "^4.0.1",
     "cz-conventional-changelog": "^2.0.0",
     "semantic-release-cli": "^3.2.0",
     "semantic-release": "^8.0.3"
